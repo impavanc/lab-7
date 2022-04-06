@@ -1,5 +1,4 @@
 function init(){
-//add your javascrip between these two lnes of code
 	function alertText(){
 		var outputtext = document.getElementById("textoutput");
 		var alerttext = document.getElementById("entryinput").value;
@@ -10,3 +9,4 @@ function init(){
 	entrybutton.addEventListener("click", alertText);
 }
 window.addEventListener('load', init);
+
